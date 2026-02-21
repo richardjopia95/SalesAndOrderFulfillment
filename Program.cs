@@ -21,8 +21,8 @@ class Program
             Console.WriteLine("\nProducts:");
             for(int i = 0; i < name.Length; i++)
             {
-                Console.WriteLine(i + " " + name[i] + "" + price[i] + " " + "Stock: " + stock[i]);
-                Console.Write("Select Product: ");
+                Console.WriteLine((i + 1)+ ". " + name[i] + "" + price[i] + " " + "Stock: " + stock[i]);
+                Console.Write("gUSTO MO NYAN?: ");
 
                 int p = int.Parse(Console.ReadLine());
 
